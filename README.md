@@ -1,6 +1,12 @@
 ﻿
 # ZSim+Ramulator - A Processing-in-Memory Simulation Framework
 
+## Anurag's Notes:
+This version of Ramulator PIM works on our lab machine `boson`. This software seems to need Ubuntu 18.04 or lower and will not work with higher versions of Ubuntu. 
+This also needs g++-6 which needs to be installed in the machine and some things in Makefiles hchanged to use g++-6 instead of regular g++.
+
+
+
 ZSim+Ramulator is a framework for design space exploration of general-purpose Processing-in-Memory (PIM) architectures. 
 The framework is based on two widely-known simulators: ZSim [[1]](https://github.com/s5z/zsim/) and Ramulator [[2]](https://people.inf.ethz.ch/omutlu/pub/ramulator_dram_simulator-ieee-cal15.pdf)[[3]](https://github.com/CMU-SAFARI/ramulator). 
 
